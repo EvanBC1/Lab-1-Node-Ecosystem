@@ -73,7 +73,7 @@ describe('validator module performs complex validations', () => {
         favoriteToys: {type: 'object'}
       },
     };
-    expect(validator.isObjectValid('hello', schema)).toEqual(false);
+    expect(validator.isProperties()).toEqual(false);
   });
 
 
